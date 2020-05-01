@@ -5,3 +5,25 @@ The goal of this report is to understand the extent of the spread of coronavirus
 
 # Data
 In order to perform this analysis we need a data source which contains data vintages off the spread of coronavirus. The data has been taken from a GitHub repository developed by Emanuele Guidotti. Since data is constantly updated, for this report the data has been filtered as of ‘2020-04-28’ to maintain consistency.
+
+This subset data contains `r ncol(data)` variables and `r nrow(data)` observations. Types of Variables in dataset are:
+
+- **id** a character that represents the combination of country and states.
+- **date** a character that contains date with a daily frequency.
+- **confirmed** a double (numeric) that represents confirmed cases.
+- **country** a character  that represents country.
+- **stringency_index** a double (numeric) that represents stringency value. It's calculated based on the value of various lockdown policies like ‘School Closing’ , ‘Workplace Closing’, ‘Restrictions at gatherings’ etc. 
+
+# Analysis
+
+On looking at the datatype it can be seen that ‘date’ has an incorrect datatype. Date cannot be a character. The ‘data’ is converted to date time object. 
+
+Looking at the summary statistics in Table 1 it can be pointed out that the max value for stringent index is 71.43. Higher value means that if ‘Workplace Closing’ is ordered it will mean complete closure(or work from home) except essentials. 
+
+We will be using logarithmic plot to plot.
+
+Result
+After analysing Graph 1 it can be seen that there is an exponential increase in the number of confirmed cases. Within a period of 1 month the cases went from 15 to 3640 by end of March. From ‘Table 2' it can be identified that the highest number of confirmed cases in Australia are from ‘New South Wales’. It has turned out to be the hotspot of the virus. By looking at Table 1 and Graph 2 together it can be noticed that as the stringency_index increases the curve slowly starts to flatten out.
+
+Conclusion
+As governments continue to respond to Covid-19 it is difficult to pivot to one factor to explain the situation completely. Although stringency_index is not a measure of the effectiveness of government policies directly it gives a useful input to analyse the growth of virus. The exponential growth of cases in Australia can be attributed to factors such as Ruby Princess incident or international travels. But it can be noticed that as the Australian Government and State Premiers implemented strict lockdowns(or higher stringency_index) the growth of new confirmed cases started to slow down. And, Since there is no active vaccine yet and our body not immune to it this virus the only defence that people can have against this virus is social distancing.
