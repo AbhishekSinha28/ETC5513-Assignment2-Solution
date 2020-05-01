@@ -25,3 +25,13 @@ After analysing Graph 1 it can be seen that there is an exponential increase in 
 
 Conclusion
 As governments continue to respond to Covid-19 it is difficult to pivot to one factor to explain the situation completely. Although stringency_index is not a measure of the effectiveness of government policies directly it gives a useful input to analyse the growth of virus. The exponential growth of cases in Australia can be attributed to factors such as Ruby Princess incident or international travels. But it can be noticed that as the Australian Government and State Premiers implemented strict lockdowns(or higher stringency_index) the growth of new confirmed cases started to slow down. And, Since there is no active vaccine yet and our body not immune to it this virus the only defence that people can have against this virus is social distancing.
+
+Reference List
+Emanuele Guidotti (University of Neuchâtel), David Ardia (HEC Montréal), IVADO. COVID-19 Data Hub[Data File].Retrieved from https://github.com/covid19datahub/COVID19#csv-data-files
+
+Thomas Hale, Anna Petherick,Toby Phillips, Samuel Webster. Variation in government responses to COVID-19(BSG-WP-2020/032 Version 5.0), Retrieved from University of Oxford, Blavatnik School of Government website https://www.bsg.ox.ac.uk/sites/default/files/2020-04/BSG-WP-2020-032-v5.0.pdf
+
+Vox News. (2020, April 2) Library : Coronavirus is not the flu. It's worse.[URL] Retrived From https://www.youtube.com/watch?v=FVIGhz3uwuQ
+
+Vox News. (2020, April 28) Library : How coronavirus charts can mislead us[URL] Retrived From
+https://www.youtube.com/watch?v=O-3Mlj3MQ_Q
