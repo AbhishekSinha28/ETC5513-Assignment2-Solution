@@ -20,8 +20,6 @@ On looking at the datatype it can be seen that ‘date’ has an incorrect datat
 
 Looking at the summary statistics in Table 1 it can be pointed out that the max value for stringent index is 71.43. Higher value means that if ‘Workplace Closing’ is ordered it will mean complete closure(or work from home) except essentials. 
 
-We will be using logarithmic plot to plot.
-
 Result
 After analysing Graph 1 it can be seen that there is an exponential increase in the number of confirmed cases. Within a period of 1 month the cases went from 15 to 3640 by end of March. From ‘Table 2' it can be identified that the highest number of confirmed cases in Australia are from ‘New South Wales’. It has turned out to be the hotspot of the virus. By looking at Table 1 and Graph 2 together it can be noticed that as the stringency_index increases the curve slowly starts to flatten out.
 
