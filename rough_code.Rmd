@@ -1,0 +1,19 @@
+---
+title: "rough_code"
+author: "Abhishek Sinha"
+date: "01/05/2020"
+output: html_document
+---
+
+# Loading libraries
+
+```{r , message = FALSE}
+library(tidyverse)
+library(readr)
+library(kableExtra)
+library(ggplot2)
+library(lubridate)
+library(gridExtra)
+library(rmdformats)
+library(plotly)
+```
