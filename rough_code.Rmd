@@ -17,3 +17,18 @@ library(gridExtra)
 library(rmdformats)
 library(plotly)
 ```
+
+```{r Getting Data, echo = TRUE, message = FALSE, warning = FALSE}
+data<- read_csv("Data/covid_aus.csv")
+```
+
+```{r structure}
+glimpse(data)
+```
+
+```{r}
+data <- data %>% 
+  mutate(date = as.Date(date, "%d/%m/%y"))
+
+glimpse(data)
+```
