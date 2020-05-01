@@ -1,0 +1,7 @@
+# Introduction
+COVID-19 pandemic has turned out to be one of the most contagious and deadliest disease, surpassing SARS and even Spanish flu in terms of mortality rate. It has disrupted lives and changed the world as we know it. Governments around the world have been struggling to contain its spread with overwhelmed hospitals and hundreds of new cases everyday. But then the question arises ‘what are the steps being taken to contain it and how effectively are those steps implemented’. One quick solution is lockdown. Governments around the world have been implementing lockdown with varied success. So is lockdown or social distancing the answer to our question. 
+Secondly, how can we understand the outcome of lockdown on the confirmed cases. Oxford’s BSG for their research project on governments response created a score Stringency Index to quantify the impact of government policies.
+The goal of this report is to understand the extent of the spread of coronavirus in Australian context and identify the impact of lockdown across states of Australia using Stringency Index.
+
+# Data
+In order to perform this analysis we need a data source which contains data vintages off the spread of coronavirus. The data has been taken from a GitHub repository developed by Emanuele Guidotti. Since data is constantly updated, for this report the data has been filtered as of ‘2020-04-28’ to maintain consistency.
