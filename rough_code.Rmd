@@ -47,3 +47,24 @@ data %>%
   kable(caption = "Table 2") %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
+
+```{r, fig.cap= "Figure 1"}
+# Examining the situation in Australia
+p <- data %>%
+  group_by(date,country) %>%
+  summarise(confirmed_cases = sum(confirmed)) %>%
+  ggplot(aes(x = date, y = confirmed_cases)) +
+  geom_line() + scale_y_continuous(trans = "log10", labels = scales::comma)
+
+ggplotly(p)
+```
+
+```{r, fig.cap= "Figure 2"}
+# Examining situation in States of Australia 
+q <- data %>%
+  filter(country=="Australia") %>%
+  ggplot(aes(x = date , y = confirmed, color = stringency_index)) + geom_line() +
+  facet_wrap(~id)
+
+ggplotly(q)
+```
