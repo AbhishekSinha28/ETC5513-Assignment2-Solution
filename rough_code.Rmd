@@ -32,3 +32,18 @@ data <- data %>%
 
 glimpse(data)
 ```
+
+```{r summary of stringency_index}
+data %>% dplyr::select(stringency_index) %>%
+  summary() %>%
+  kable(caption = "Table 1") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r confirmed cases by states}
+data %>%
+  group_by(id) %>%
+  summarise(confirmed_cases = max(confirmed)) %>%
+  kable(caption = "Table 2") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
